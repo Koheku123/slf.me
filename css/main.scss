@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,700;1,400&family=Roboto+Mono&family=Sriracha&display=swap');
+*{font-family: 'Lobster Two', cursive;
+}
+body{
+    background: url(../images/bg.jpg);
+    margin: auto;
+    background-position: 48% 35%;
+}
+.warp{
+    .avar{
+        width: 35%;
+        height: 35%;
+        border-radius: 100%;
+        display: block;
+        margin: 1em auto;
+        max-width: 220.5px;
+        max-height: 220.59px;
+        min-width: 168px;
+        min-height: 168px;
+    }
+    h1{
+        text-align: center;
+        margin: .5em auto;
+        color: aliceblue;
+        font-size: 2rem;
+    }
+    .des{
+        text-align: center;
+        color: aliceblue;
+        font-size: 1rem;
+    }
+    .bio{
+        color: aliceblue;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+}
+.lnks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a{
+        text-decoration: none;
+    }
+}
+.lnk{
+    display: flex;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    border: solid .15em aliceblue;
+    width: 55%;
+    min-width: 191.41px;        
+    max-width: 384px;
+    border-radius: 1em;
+    font-size: 2rem;
+    padding: .1em .5em;
+    color: aliceblue;
+    .item1{
+        margin-top: .2em;
+    }
+    .item2{
+        margin-left: .2em;
+        flex-grow: 2;
+        text-align: center;
+    }
+}
+ .lnk:hover{
+    background-color: aliceblue;
+    color: black;
+ }
+
